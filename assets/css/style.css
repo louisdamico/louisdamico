@@ -811,7 +811,9 @@ a:hover {
 
 .skills-icons {
   padding: 1%;
-  margin: 3%;
+  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 /*--------------------------------------------------------------
 # Counter
