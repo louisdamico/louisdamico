@@ -29,12 +29,12 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #84a9ac;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #3b6978;
+  color: #ac84a9;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -1137,7 +1137,7 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #3393ff;
+  background: #84a9ac;
 }
 
 @-webkit-keyframes animate-loading {
