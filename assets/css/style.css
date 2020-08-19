@@ -29,12 +29,12 @@ h6 {
 }
 
 a {
-  color: #84a9ac;
+  color: #1e1e1e;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
-  color: #ac84a9;
+  color: #3b6978;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -801,6 +801,18 @@ a:hover {
 .service-box .s-description {
   color: #4e4e4e;
 }
+
+.ion-monitor::before {
+  padding-top: 18px;
+}
+
+.ion-code-working::before {
+  padding-top: 18px;
+}
+
+.ion-android-phone-portrait::before {
+  padding-top: 18px;
+}
 /*---------------------------------------------------------------
 # Skills
 ----------------------------------------------------------------*/
@@ -809,6 +821,9 @@ a:hover {
   font-size: 5rem;
 }
 
+.skills-logo {
+  align-content: inherit center;
+}
 .skills-icons {
   padding: 1%;
   margin: 1%;
@@ -1027,6 +1042,11 @@ a:hover {
   line-height: 1.6;
 }
 
+.fa {
+  padding-top: 13px;
+}
+
+
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -1137,8 +1157,9 @@ a:hover {
 }
 
 .php-email-form button[type="submit"]:hover {
-  background: #84a9ac;
+  background: #3393ff;
 }
+
 
 @-webkit-keyframes animate-loading {
   0% {
