@@ -175,6 +175,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  text-align: center;
 }
 
 .title-left:before {
@@ -184,6 +185,7 @@ a:hover {
   background-color: #3b6978;
   width: 100px;
   bottom: -12px;
+  align-content: center;
 }
 
 /*------/ Box /------*/
@@ -213,6 +215,7 @@ a:hover {
 
 .socials ul li {
   display: inline-block;
+  margin: 0 auto;
 }
 
 .socials .ico-circle {
@@ -738,8 +741,33 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
+
+.about-pic-info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-aboutme-content{
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.about-links-contact {
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  max-width: none;
+}
+ .about-info-pic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   max-width: none;
+ }
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -1070,6 +1098,27 @@ a:hover {
 --------------------------------------------------------------*/
 .footer-paralax {
   padding: 4rem 0 0 0;
+}
+
+/* .bottom-icon-linkedin .bottom-icon-github {
+  margin-right: -15px;
+} */
+
+.socials {
+  text-align: center;
+}
+
+.get-in-touch{
+  text-align: center;
+}
+
+.get-touch-title {
+  text-align: center;
+}
+
+.contact-bottom {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .contact-mf {
