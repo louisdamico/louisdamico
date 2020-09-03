@@ -643,6 +643,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 .intro {
   height: 100vh;
   position: relative;
@@ -741,6 +742,7 @@ a:hover {
 }
 
 .about-mf .about-img img {
+
   /* margin-left: 10px; */
 }
 
