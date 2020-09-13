@@ -947,6 +947,11 @@ margin-bottom: auto;
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+#tic-tac-toe-tech li { 
+  display: inline;
+}
+
 .portfolio-details {
   padding-top: 30px;
 }
