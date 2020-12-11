@@ -223,7 +223,7 @@ a:hover {
   width: 40px;
   font-size: 1.7rem;
   border-radius: 50%;
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #3b6978;
   transition: all 500ms ease;
@@ -265,6 +265,14 @@ a:hover {
   display: block;
 }
 
+.iconify { 
+  padding: 4px;
+  display: inherit;
+}
+
+#salesfroce {
+  margin-bottom: 10px;
+}
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
   text-align: center;
